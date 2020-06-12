@@ -5,6 +5,7 @@ import Accordion from "../components/accordion";
 import Footer from "../components/footer";
 import Thumbnail from "../components/thumbnails";
 import { thumbnailData } from "../data/thumbnails";
+import { accordionData } from "../data/accordions";
 
 const index = () => {
   return (
@@ -32,7 +33,18 @@ const index = () => {
       </section>
 
       <section className="accordion-wrapper">
-        <Accordion />
+        {accordionData.map((accordion, i) => {
+          const { id, accordionHeader, image, subDetails } = accordion;
+
+          return (
+            <Accordion key={`${id}-${i}`} title={accordionHeader} image={image}>
+              {subDetails.map((subAccordion, i) => {
+                const { subTitle, details } = subAccordion;
+                return <Accordion title={subTitle} details={details} />;
+              })}
+            </Accordion>
+          );
+        })}
       </section>
 
       <Footer />

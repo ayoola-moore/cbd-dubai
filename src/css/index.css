@@ -101,6 +101,16 @@ b {
   border-radius: 30px;
 }
 
+.thumbnail-wrapper > div:hover:after {
+  background: rgba(0, 0, 0, 0.6);
+  transition-timing-function: ease-out;
+  transition: all 0.5s;
+}
+
+.thumbnail-wrapper > div:hover {
+  transform: translate(0, -6px);
+}
+
 /* *** accordions *** */
 
 .accordion-wrapper {
@@ -122,7 +132,6 @@ b {
 .accordion-title {
   background: #212121;
   color: #fff;
-  padding: 2%;
   margin: 1% auto;
   width: 100%;
   display: block;
@@ -133,6 +142,10 @@ b {
   width: 100%;
   display: block;
   padding: 2%;
+}
+
+.details {
+  padding: 2% 0;
 }
 
 .Collapsible {
@@ -151,6 +164,23 @@ b {
 .Collapsible__contentInner > img {
   width: 100%;
 }
+
+.img-overlay {
+  position: relative;
+}
+
+.img-overlay:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 99%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .Collapsible__contentInner p:last-child {
   margin-bottom: 0;
 }
@@ -169,11 +199,12 @@ b {
 }
 
 .Collapsible__trigger:after {
-  font-family: "FontAwesome";
-  content: "\f107";
+  /* content: url("../images/chevron-left-solid.svg"); */
+  content: url("../images/direction-2.png");
+  color: #fff;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 1em;
+  top: 0.5em;
   display: block;
   transition: transform 300ms;
 }

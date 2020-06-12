@@ -1,24 +1,23 @@
 import React from "react";
 import Collapsible from "react-collapsible";
+import ReactHtmlParser from "react-html-parser";
 
-const Accordion = ({ title, image, children, withBackground }) => {
+// import Account from "../images/Accounts.png";
+
+const Accordion = ({ title, image, children, details }) => {
   return (
-    <Collapsible
-      trigger={title}
-      className={`accordion-title`}
-      style={withBackground}
-    >
-      <img src={image} alt={title} />
+    <Collapsible trigger={title} className={`accordion-title arrow-left`}>
+      <div className="img-overlay">
+        {image ? <img src={image} alt={title} /> : null}
+      </div>
       <div className="child-accordion-wrapper">{children}</div>
+      <p className="details">{ReactHtmlParser(details)}</p>
     </Collapsible>
   );
 };
 
 Accordion.defaultProps = {
   title: "default title",
-  image: "https://dummyimage.com/600x400/000/fff",
-  children: "NO children",
-  withBackground: { backgroudColor: "#000" },
 };
 
 export default Accordion;
