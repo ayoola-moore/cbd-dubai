@@ -1,21 +1,24 @@
 import React from "react";
 import Collapsible from "react-collapsible";
 
-const Accordion = React.createClass({
-  render: function () {
-    return (
-      <Collapsible trigger="Start here">
-        <p>
-          This is the collapsible content. It can be any element or React
-          component you like.
-        </p>
-        <p>
-          It can even be another Collapsible component. Check out the next
-          section!
-        </p>
-      </Collapsible>
-    );
-  },
-});
+const Accordion = ({ title, image, children, withBackground }) => {
+  return (
+    <Collapsible
+      trigger={title}
+      className={`accordion-title`}
+      style={withBackground}
+    >
+      <img src={image} alt={title} />
+      <div className="child-accordion-wrapper">{children}</div>
+    </Collapsible>
+  );
+};
+
+Accordion.defaultProps = {
+  title: "default title",
+  image: "https://dummyimage.com/600x400/000/fff",
+  children: "NO children",
+  withBackground: { backgroudColor: "#000" },
+};
 
 export default Accordion;
