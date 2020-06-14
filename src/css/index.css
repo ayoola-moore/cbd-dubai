@@ -137,11 +137,11 @@ b {
   display: block;
 }
 
-.is-open {
-  background: var(--lemon) !important;
+.Collapsible .is-open {
+  background: var(--lemon);
   width: 100%;
   display: block;
-  padding: 2%;
+  padding: 3%;
 }
 
 .details {
@@ -204,12 +204,14 @@ b {
   color: #fff;
   position: absolute;
   right: 1em;
-  top: 0.5em;
+  top: 1em;
   display: block;
   transition: transform 300ms;
+  transform: rotateZ(180deg);
 }
 .Collapsible__trigger.is-open:after {
-  transform: rotateZ(180deg);
+  transform: rotateZ(-90deg);
+  top: 0.8em;
 }
 .Collapsible__trigger.is-disabled {
   opacity: 0.5;

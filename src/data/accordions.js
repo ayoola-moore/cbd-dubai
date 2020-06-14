@@ -20,24 +20,34 @@ export const accordionData = [
         pid: "details",
         subTitle: "Account balance details",
         details: `
+          <div class="data-details">
           <b>To view your account details through CBD Mobile App:</b>
+          <p>
           1 Login to CBD Mobile Banking
+          </p>
+          <p>
           2 All your accounts and the available balance will show in Home page Accounts’ tab
+          </p>
           3 Click on account if you wish to view more information
           
           <b>To view your account details through CBD Online Banking:</b>
           1 Login to CBD Online Banking
           2 Go to 'Accounts' Tab to see all your accounts and available balance
           3 Click on the Account Number to view your account details.
+          </div>
           `,
-      },      
+      },
       {
         pid: "details",
-        subTitle: "Account balance details",
+        subTitle: "Activate debit card",
         details: `
           <b>To view your account details through CBD Mobile App:</b>
+          <p>
           1 Login to CBD Mobile Banking
+          </p>
+          <p>
           2 All your accounts and the available balance will show in Home page Accounts’ tab
+          </p>
           3 Click on account if you wish to view more information
           
           <b>To view your account details through CBD Online Banking:</b>

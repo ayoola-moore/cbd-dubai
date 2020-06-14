@@ -40,7 +40,13 @@ const index = () => {
             <Accordion key={`${id}-${i}`} title={accordionHeader} image={image}>
               {subDetails.map((subAccordion, i) => {
                 const { subTitle, details } = subAccordion;
-                return <Accordion title={subTitle} details={details} />;
+                return (
+                  <Accordion
+                    title={subTitle}
+                    details={details}
+                    withoutBg={true}
+                  />
+                );
               })}
             </Accordion>
           );
