@@ -66,6 +66,7 @@ b {
   margin: 0.3em;
   border-radius: 24px;
   overflow: hidden;
+  max-width: 205px;
 }
 
 .thumbnail-text {
@@ -152,6 +153,17 @@ b {
   background-color: white;
 }
 
+.Collapsible__trigger {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.Collapsible__trigger:hover {
+  transform: translate(-7px, 0px);
+  transition: all ease-in-out 0.1s;
+}
+
 .Collapsible__contentInner {
   border-top: 0;
 }
@@ -204,7 +216,7 @@ b {
   color: #fff;
   position: absolute;
   right: 1em;
-  top: 1em;
+  top: 40%;
   display: block;
   transition: transform 300ms;
   transform: rotateZ(180deg);
@@ -232,4 +244,75 @@ b {
   font-size: 12px;
   background-color: #cbb700;
   color: black;
+}
+
+@media (orientation: portrait) {
+  .container {
+    padding: 2% 4%;
+  }
+  .accordion-wrapper {
+    width: 100%;
+  }
+  .thumbnail {
+    height: 274px;
+  }
+  .thumbnail-text {
+    font-size: 1em;
+  }
+  .home-para {
+    padding: 3% 6%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 2% 4%;
+  }
+  .accordion-wrapper {
+    width: 100%;
+  }
+  .home-para {
+    padding: 3% 6%;
+  }
+  .Collapsible__trigger {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 2% 4%;
+  }
+  .accordion-wrapper {
+    width: 100%;
+  }
+  .thumbnail {
+    height: 274px;
+  }
+  .thumbnail-text {
+    font-size: 1em;
+  }
+  .home-para {
+    padding: 3% 6%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .thumbnail {
+    height: 177px;
+  }
+  .Collapsible__trigger {
+    font-size: 1.1em;
+  }
+  .header > img,
+  .footer-wrapper img {
+    width: 18%;
+    min-width: 137px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .thumbnail-wrapper {
+    display: none;
+  }
 }
