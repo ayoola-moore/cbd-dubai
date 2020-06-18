@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19db2d11.chunk.css",
+    "main.js": "/static/js/main.49b6a490.chunk.js",
+    "main.js.map": "/static/js/main.49b6a490.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20573be6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20573be6.js.map",
+    "static/js/2.e4734c5e.chunk.js": "/static/js/2.e4734c5e.chunk.js",
+    "static/js/2.e4734c5e.chunk.js.map": "/static/js/2.e4734c5e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.190ae85cbe68ef52235407afc790a377.js": "/precache-manifest.190ae85cbe68ef52235407afc790a377.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.19db2d11.chunk.css.map": "/static/css/main.19db2d11.chunk.css.map",
+    "static/js/2.e4734c5e.chunk.js.LICENSE.txt": "/static/js/2.e4734c5e.chunk.js.LICENSE.txt",
+    "static/media/Accounts.png": "/static/media/Accounts.527aec5b.png",
+    "static/media/Branch-&-ATM-Locator.png": "/static/media/Branch-&-ATM-Locator.7065b15d.png",
+    "static/media/Credit-card.png": "/static/media/Credit-card.f75f74ae.png",
+    "static/media/Document_Personal-Details-Update.png": "/static/media/Document_Personal-Details-Update.7d00939a.png",
+    "static/media/Loan-details.png": "/static/media/Loan-details.ed506297.png",
+    "static/media/Rewards-&-Loyalty.png": "/static/media/Rewards-&-Loyalty.fe1f1d5b.png",
+    "static/media/banner-img.png": "/static/media/banner-img.96110f84.png",
+    "static/media/home-page-3-logo@2x.png": "/static/media/home-page-3-logo@2x.c81fe140.png",
+    "static/media/thumbnail-1.png": "/static/media/thumbnail-1.03f8c293.png",
+    "static/media/thumbnail-2.png": "/static/media/thumbnail-2.689667fd.png",
+    "static/media/thumbnail-3.png": "/static/media/thumbnail-3.5b5a55e4.png",
+    "static/media/thumbnail-4.png": "/static/media/thumbnail-4.a35a801c.png",
+    "static/media/thumbnail-5.png": "/static/media/thumbnail-5.7f5285b9.png",
+    "static/media/thumbnail-6.png": "/static/media/thumbnail-6.a35c2154.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20573be6.js",
+    "static/js/2.e4734c5e.chunk.js",
+    "static/css/main.19db2d11.chunk.css",
+    "static/js/main.49b6a490.chunk.js"
+  ]
+}
