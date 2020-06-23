@@ -15,6 +15,11 @@ b {
   font-weight: 700;
 }
 
+.offline {
+  background: var(--lemon);
+  text-align: center;
+}
+
 .container {
   padding: 0 14%;
   max-width: 100%;
@@ -74,11 +79,9 @@ b {
   font-size: 1.5em;
   text-transform: capitalize;
   z-index: 20;
-  position: absolute;
   color: #fff;
-  bottom: 23%;
-  left: 0;
-  right: 0;
+  height: 100%;
+  padding: 125% 0 100%;
 }
 
 .thumbnail-wrapper > div:after {

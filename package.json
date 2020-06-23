@@ -21,6 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
+  "homepage": "https://ayoola-moore.github.io/cbd-dubai/",
   "eslintConfig": {
     "extends": "react-app"
   },
