@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfcaeef98b62b766edc80a50915e7a33",
+    "revision": "795cfba7b38d3e24aa06e723c2630268",
     "url": "/cbd-dubai/index.html"
   },
   {
-    "revision": "a8c94511aecf9814a8fd",
-    "url": "/cbd-dubai/static/css/main.9ff581e3.chunk.css"
+    "revision": "048f153e5343a0ddbeae",
+    "url": "/cbd-dubai/static/css/main.711b1954.chunk.css"
   },
   {
     "revision": "a1f900b625c264f5e872",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cbd-dubai/static/js/2.71764c6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8c94511aecf9814a8fd",
-    "url": "/cbd-dubai/static/js/main.939f1cdc.chunk.js"
+    "revision": "048f153e5343a0ddbeae",
+    "url": "/cbd-dubai/static/js/main.7c97c653.chunk.js"
   },
   {
     "revision": "58d8251dcbf6f79c5c4a",

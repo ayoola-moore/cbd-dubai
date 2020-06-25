@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cbd-dubai/static/css/main.9ff581e3.chunk.css",
-    "main.js": "/cbd-dubai/static/js/main.939f1cdc.chunk.js",
-    "main.js.map": "/cbd-dubai/static/js/main.939f1cdc.chunk.js.map",
+    "main.css": "/cbd-dubai/static/css/main.711b1954.chunk.css",
+    "main.js": "/cbd-dubai/static/js/main.7c97c653.chunk.js",
+    "main.js.map": "/cbd-dubai/static/js/main.7c97c653.chunk.js.map",
     "runtime-main.js": "/cbd-dubai/static/js/runtime-main.d0daad5b.js",
     "runtime-main.js.map": "/cbd-dubai/static/js/runtime-main.d0daad5b.js.map",
     "static/js/2.71764c6a.chunk.js": "/cbd-dubai/static/js/2.71764c6a.chunk.js",
     "static/js/2.71764c6a.chunk.js.map": "/cbd-dubai/static/js/2.71764c6a.chunk.js.map",
     "index.html": "/cbd-dubai/index.html",
-    "precache-manifest.4f115ee836fa9df012e7cadc908f0939.js": "/cbd-dubai/precache-manifest.4f115ee836fa9df012e7cadc908f0939.js",
+    "precache-manifest.ff65353d91e305b51bd2305e2c6529f3.js": "/cbd-dubai/precache-manifest.ff65353d91e305b51bd2305e2c6529f3.js",
     "service-worker.js": "/cbd-dubai/service-worker.js",
-    "static/css/main.9ff581e3.chunk.css.map": "/cbd-dubai/static/css/main.9ff581e3.chunk.css.map",
+    "static/css/main.711b1954.chunk.css.map": "/cbd-dubai/static/css/main.711b1954.chunk.css.map",
     "static/js/2.71764c6a.chunk.js.LICENSE.txt": "/cbd-dubai/static/js/2.71764c6a.chunk.js.LICENSE.txt",
     "static/media/Accounts.png": "/cbd-dubai/static/media/Accounts.527aec5b.png",
     "static/media/Branch-&-ATM-Locator.png": "/cbd-dubai/static/media/Branch-&-ATM-Locator.7065b15d.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0daad5b.js",
     "static/js/2.71764c6a.chunk.js",
-    "static/css/main.9ff581e3.chunk.css",
-    "static/js/main.939f1cdc.chunk.js"
+    "static/css/main.711b1954.chunk.css",
+    "static/js/main.7c97c653.chunk.js"
   ]
 }
