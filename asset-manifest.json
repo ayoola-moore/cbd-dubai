@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cbd-dubai/static/css/main.9ff581e3.chunk.css",
-    "main.js": "/cbd-dubai/static/js/main.3c7dea58.chunk.js",
-    "main.js.map": "/cbd-dubai/static/js/main.3c7dea58.chunk.js.map",
+    "main.js": "/cbd-dubai/static/js/main.939f1cdc.chunk.js",
+    "main.js.map": "/cbd-dubai/static/js/main.939f1cdc.chunk.js.map",
     "runtime-main.js": "/cbd-dubai/static/js/runtime-main.d0daad5b.js",
     "runtime-main.js.map": "/cbd-dubai/static/js/runtime-main.d0daad5b.js.map",
     "static/js/2.71764c6a.chunk.js": "/cbd-dubai/static/js/2.71764c6a.chunk.js",
     "static/js/2.71764c6a.chunk.js.map": "/cbd-dubai/static/js/2.71764c6a.chunk.js.map",
     "index.html": "/cbd-dubai/index.html",
-    "precache-manifest.3ddda8dd6d8a04af934e1f2523fb32fc.js": "/cbd-dubai/precache-manifest.3ddda8dd6d8a04af934e1f2523fb32fc.js",
+    "precache-manifest.4f115ee836fa9df012e7cadc908f0939.js": "/cbd-dubai/precache-manifest.4f115ee836fa9df012e7cadc908f0939.js",
     "service-worker.js": "/cbd-dubai/service-worker.js",
     "static/css/main.9ff581e3.chunk.css.map": "/cbd-dubai/static/css/main.9ff581e3.chunk.css.map",
     "static/js/2.71764c6a.chunk.js.LICENSE.txt": "/cbd-dubai/static/js/2.71764c6a.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.d0daad5b.js",
     "static/js/2.71764c6a.chunk.js",
     "static/css/main.9ff581e3.chunk.css",
-    "static/js/main.3c7dea58.chunk.js"
+    "static/js/main.939f1cdc.chunk.js"
   ]
 }

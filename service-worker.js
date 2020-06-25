@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cbd-dubai/precache-manifest.3ddda8dd6d8a04af934e1f2523fb32fc.js"
+  "/cbd-dubai/precache-manifest.4f115ee836fa9df012e7cadc908f0939.js"
 );
 
 self.addEventListener('message', (event) => {
