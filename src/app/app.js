@@ -42,11 +42,11 @@ class App extends React.Component {
 
     return (
       <>
-        {isDisconnected && (
+        {/* {isDisconnected && (
           <div className={"offline"}>
             Internet lost. Application in offline mode
           </div>
-        )}
+        )} */}
         <Index />
       </>
     );
